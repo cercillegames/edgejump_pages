@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-src 'none'; object-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self'; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; font-src 'self'; media-src 'self'; manifest-src 'self'; upgrade-insecure-requests; block-all-mixed-content"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="description" content="Mobil oyununuzu tanitmak ve Google Play'e yonlendirmek icin tek sayfalik baglanti sayfasi." />
+    <meta name="theme-color" content="#0d1020" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mobil Oyun Link Sayfasi" />
+    <meta property="og:description" content="Oyununuzu tanitin, oyunculari Google Play'e yonlendirin." />
+    <meta property="og:image" content="assets/game-poster.webp" />
+    <meta property="og:locale" content="tr_TR" />
+    <title>Mobil Oyun Link Sayfasi</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png" sizes="64x64" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+    <link id="poster-preload" rel="preload" as="image" href="assets/game-poster.webp" type="image/webp" />
+    <link id="icon-preload" rel="preload" as="image" href="assets/game-icon.webp" type="image/webp" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="config.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="poster-stage" id="app" aria-live="polite">
+        <section class="phone-shell is-revealed">
+          <img
+            id="poster-art"
+            class="poster-art"
+            src="assets/game-poster.webp"
+            alt=""
+            aria-hidden="true"
+            width="1200"
+            height="2150"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <div class="poster-scrim" aria-hidden="true"></div>
+
+          <div class="poster-content">
+            <section class="profile-stack" aria-label="Oyun profili">
+              <img
+                id="game-cover"
+                class="profile-icon"
+                src="assets/game-icon.webp"
+                alt="Oyun simgesi"
+                width="256"
+                height="256"
+                decoding="async"
+                fetchpriority="high"
+              />
+              <p id="game-handle" class="game-handle">CERCILLEGAMES</p>
+            </section>
+
+            <section class="cta-panel" id="primary-link-zone" aria-label="Ana baglanti alani"></section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <noscript>
+      <div class="noscript-banner">
+        Bu sayfanin tam calismasi icin JavaScript acik olmalidir.
+      </div>
+    </noscript>
+  </body>
+</html>

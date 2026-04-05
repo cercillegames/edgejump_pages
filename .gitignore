@@ -1,0 +1,5 @@
+artifacts/
+scripts/
+*.log
+Thumbs.db
+.DS_Store
