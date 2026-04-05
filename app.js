@@ -740,20 +740,8 @@
   }
 
   function wireTrackedNavigation(anchor, link) {
-    anchor.addEventListener("click", function (event) {
-      if (link.openInNewTab) {
-        trackLinkClick(link);
-        return;
-      }
-
-      if (typeof window.gtag !== "function") {
-        return;
-      }
-
-      event.preventDefault();
-      trackLinkClick(link, function () {
-        window.location.assign(link.url);
-      });
+    anchor.addEventListener("click", function () {
+      trackLinkClick(link);
     });
   }
 
