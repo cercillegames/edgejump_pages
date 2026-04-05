@@ -1,5 +1,6 @@
 artifacts/
 scripts/
+README.md
 *.log
 Thumbs.db
 .DS_Store
