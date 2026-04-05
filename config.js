@@ -10,13 +10,13 @@ window.siteConfig = {
     {
       id: "google-play",
       label: "Play Edge Jump Now!",
-      url: "https://play.google.com/store/apps/details?id=com.example.game",
+      url: "https://play.google.com/store/apps/details?id=com.yasin.edgejump",
       kind: "primary",
       openInNewTab: false
     }
   ],
   analytics: {
-    enabled: false,
-    measurementId: "G-XXXXXXXXXX"
+    enabled: true,
+    measurementId: "G-3HJ0SX6H7D"
   }
 };
