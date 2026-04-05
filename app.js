@@ -1,5 +1,6 @@
 (function () {
   const defaultConfig = {
+    pageTitle: "Game Landing Page",
     socialHandle: "CERCILLEGAMES",
     description: "Edge Jump'i kesfedin ve Google Play uzerinden hemen oynamaya baslayin.",
     posterImagePath: "assets/game-poster.webp",
@@ -757,11 +758,11 @@
   }
 
   function updateDocumentMeta() {
-    const title = asText(config.socialHandle) || "Game Link";
+    const title = asText(config.pageTitle) || asText(config.socialHandle) || "Game Landing Page";
     const description = asText(config.description) || defaultConfig.description;
     const imagePath = asImagePath(config.posterImagePath || config.heroImagePath, defaultConfig.posterImagePath);
 
-    document.title = title + " | Google Play Link Sayfasi";
+    document.title = title;
     updateMeta('meta[name="description"]', description);
     updateMeta('meta[property="og:title"]', title);
     updateMeta('meta[property="og:description"]', description);

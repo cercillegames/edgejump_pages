@@ -1,4 +1,5 @@
 window.siteConfig = {
+  pageTitle: "Edge Jump | CERCILLEGAMES",
   socialHandle: "CERCILLEGAMES",
   description: "Edge Jump'i kesfedin ve Google Play uzerinden hemen oynamaya baslayin.",
   posterImagePath: "assets/game-poster.webp",
