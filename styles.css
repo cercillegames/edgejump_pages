@@ -652,20 +652,6 @@ p {
   display: none;
 }
 
-.noscript-banner {
-  position: fixed;
-  left: 16px;
-  right: 16px;
-  bottom: 16px;
-  z-index: 10;
-  padding: 14px 16px;
-  border-radius: 16px;
-  background: #101521;
-  color: #ffffff;
-  text-align: center;
-  box-shadow: 0 18px 40px rgba(16, 21, 33, 0.28);
-}
-
 .is-revealed {
   animation: phone-in 520ms ease both;
 }
