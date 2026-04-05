@@ -1,9 +1,9 @@
 window.siteConfig = {
   socialHandle: "CERCILLEGAMES",
-  description: "Neon arcade refleks oyununuzu Instagram reklamlari icin tek ekranda tanitin.",
+  description: "Edge Jump'i kesfedin ve Google Play uzerinden hemen oynamaya baslayin.",
   posterImagePath: "assets/game-poster.webp",
   heroImagePath: "assets/game-icon.webp",
-  heroImageAlt: "Edge Jump oyun simgesi",
+  heroImageAlt: "Edge Jump oyun uygulama ikonu",
   messengerAppId: "",
   links: [
     {

@@ -1,10 +1,10 @@
 (function () {
   const defaultConfig = {
-    socialHandle: "YOUR STUDIO",
-    description: "Tek sayfalik oyun tanitim ve yonlendirme sayfasi.",
+    socialHandle: "CERCILLEGAMES",
+    description: "Edge Jump'i kesfedin ve Google Play uzerinden hemen oynamaya baslayin.",
     posterImagePath: "assets/game-poster.webp",
     heroImagePath: "assets/game-icon.webp",
-    heroImageAlt: "Oyun simgesi",
+    heroImageAlt: "Edge Jump oyun uygulama ikonu",
     messengerAppId: "",
     links: [],
     analytics: {
